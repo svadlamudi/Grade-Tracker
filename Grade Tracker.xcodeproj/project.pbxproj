@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E09673019812ACF0033E352 /* GTAddCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E09672F19812ACF0033E352 /* GTAddCourseViewController.m */; };
+		1E1381901981B25000B432E5 /* GTEditCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E13818F1981B25000B432E5 /* GTEditCourseViewController.m */; };
+		1E1381931981DF0C00B432E5 /* UINavigationController+KeyboardDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381921981DF0C00B432E5 /* UINavigationController+KeyboardDismiss.m */; };
+		1E1381991983129700B432E5 /* GTAddAssignmentTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381981983129700B432E5 /* GTAddAssignmentTypeViewController.m */; };
+		1E13819C198312AC00B432E5 /* GTEditAssignmentTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E13819B198312AC00B432E5 /* GTEditAssignmentTypeViewController.m */; };
+		1E13819F1984297A00B432E5 /* GTAssignmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E13819E1984297A00B432E5 /* GTAssignmentTableViewCell.m */; };
+		1E1381A219842A1200B432E5 /* GTAssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381A119842A1200B432E5 /* GTAssignmentViewController.m */; };
+		1E1381A519845BF900B432E5 /* Assignment+Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381A419845BF900B432E5 /* Assignment+Methods.m */; };
+		1E1381A819845C4400B432E5 /* AssignmentType+Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381A719845C4400B432E5 /* AssignmentType+Methods.m */; };
+		1E1381AB19845D1F00B432E5 /* Course+Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381AA19845D1F00B432E5 /* Course+Methods.m */; };
+		1E1381AE198818AB00B432E5 /* GTAddAssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381AD198818AB00B432E5 /* GTAddAssignmentViewController.m */; };
+		1E1381B1198818C500B432E5 /* GTEditAssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381B0198818C500B432E5 /* GTEditAssignmentViewController.m */; };
+		1E1381CF1988456100B432E5 /* GTAssignmentCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381CE1988456100B432E5 /* GTAssignmentCDTVC.m */; };
+		1E1381D319894F2D00B432E5 /* GTAverageAssignmentTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E1381D219894F2D00B432E5 /* GTAverageAssignmentTypeViewController.m */; };
 		1ECFB3FD197DD0910020DD62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECFB3FC197DD0910020DD62 /* Foundation.framework */; };
 		1ECFB3FF197DD0910020DD62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECFB3FE197DD0910020DD62 /* CoreGraphics.framework */; };
 		1ECFB401197DD0910020DD62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECFB400197DD0910020DD62 /* UIKit.framework */; };
@@ -21,6 +35,15 @@
 		1ECFB41E197DD0910020DD62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECFB400197DD0910020DD62 /* UIKit.framework */; };
 		1ECFB426197DD0910020DD62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ECFB424197DD0910020DD62 /* InfoPlist.strings */; };
 		1ECFB428197DD0910020DD62 /* Grade_TrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFB427197DD0910020DD62 /* Grade_TrackerTests.m */; };
+		1ECFB433197ECF7D0020DD62 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFB431197ECF7D0020DD62 /* Model.xcdatamodeld */; };
+		1ECFB469197F0EEB0020DD62 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECFB468197F0EEB0020DD62 /* CoreData.framework */; };
+		1ECFB46C197F10B20020DD62 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFB46B197F10B20020DD62 /* CoreDataTableViewController.m */; };
+		1ECFB46F197F1F250020DD62 /* GTCourseCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFB46E197F1F250020DD62 /* GTCourseCDTVC.m */; };
+		1ECFB472197F43F00020DD62 /* GTSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFB471197F43F00020DD62 /* GTSplitViewController.m */; };
+		1ECFB47F197F5C700020DD62 /* GTAssignmentTypeCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECFB47E197F5C700020DD62 /* GTAssignmentTypeCDTVC.m */; };
+		1EF6E10019C658B50015B81A /* AssignmentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6E0FF19C658B50015B81A /* AssignmentType.m */; };
+		1EF6E10319C658B50015B81A /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6E10219C658B50015B81A /* Assignment.m */; };
+		1EF6E10619C658B50015B81A /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF6E10519C658B50015B81A /* Course.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E09671B1980503E0033E352 /* ManagedDocumentReady.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ManagedDocumentReady.h; path = ../ManagedDocumentReady.h; sourceTree = "<group>"; };
+		1E09672E19812ACF0033E352 /* GTAddCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAddCourseViewController.h; sourceTree = "<group>"; };
+		1E09672F19812ACF0033E352 /* GTAddCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAddCourseViewController.m; sourceTree = "<group>"; };
+		1E13818E1981B25000B432E5 /* GTEditCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTEditCourseViewController.h; sourceTree = "<group>"; };
+		1E13818F1981B25000B432E5 /* GTEditCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTEditCourseViewController.m; sourceTree = "<group>"; };
+		1E1381911981DF0C00B432E5 /* UINavigationController+KeyboardDismiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+KeyboardDismiss.h"; sourceTree = "<group>"; };
+		1E1381921981DF0C00B432E5 /* UINavigationController+KeyboardDismiss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+KeyboardDismiss.m"; sourceTree = "<group>"; };
+		1E1381971983129700B432E5 /* GTAddAssignmentTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAddAssignmentTypeViewController.h; sourceTree = "<group>"; };
+		1E1381981983129700B432E5 /* GTAddAssignmentTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GTAddAssignmentTypeViewController.m; sourceTree = "<group>"; };
+		1E13819A198312AC00B432E5 /* GTEditAssignmentTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTEditAssignmentTypeViewController.h; sourceTree = "<group>"; };
+		1E13819B198312AC00B432E5 /* GTEditAssignmentTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTEditAssignmentTypeViewController.m; sourceTree = "<group>"; };
+		1E13819D1984297A00B432E5 /* GTAssignmentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAssignmentTableViewCell.h; sourceTree = "<group>"; };
+		1E13819E1984297A00B432E5 /* GTAssignmentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAssignmentTableViewCell.m; sourceTree = "<group>"; };
+		1E1381A019842A1200B432E5 /* GTAssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAssignmentViewController.h; sourceTree = "<group>"; };
+		1E1381A119842A1200B432E5 /* GTAssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAssignmentViewController.m; sourceTree = "<group>"; };
+		1E1381A319845BF900B432E5 /* Assignment+Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Assignment+Methods.h"; sourceTree = "<group>"; };
+		1E1381A419845BF900B432E5 /* Assignment+Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Assignment+Methods.m"; sourceTree = "<group>"; };
+		1E1381A619845C4400B432E5 /* AssignmentType+Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AssignmentType+Methods.h"; sourceTree = "<group>"; };
+		1E1381A719845C4400B432E5 /* AssignmentType+Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AssignmentType+Methods.m"; sourceTree = "<group>"; };
+		1E1381A919845D1F00B432E5 /* Course+Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Course+Methods.h"; sourceTree = "<group>"; };
+		1E1381AA19845D1F00B432E5 /* Course+Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Course+Methods.m"; sourceTree = "<group>"; };
+		1E1381AC198818AB00B432E5 /* GTAddAssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAddAssignmentViewController.h; sourceTree = "<group>"; };
+		1E1381AD198818AB00B432E5 /* GTAddAssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAddAssignmentViewController.m; sourceTree = "<group>"; };
+		1E1381AF198818C500B432E5 /* GTEditAssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTEditAssignmentViewController.h; sourceTree = "<group>"; };
+		1E1381B0198818C500B432E5 /* GTEditAssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTEditAssignmentViewController.m; sourceTree = "<group>"; };
+		1E1381CD1988456100B432E5 /* GTAssignmentCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAssignmentCDTVC.h; sourceTree = "<group>"; };
+		1E1381CE1988456100B432E5 /* GTAssignmentCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAssignmentCDTVC.m; sourceTree = "<group>"; };
+		1E1381D019887B8F00B432E5 /* ThirdRevision.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThirdRevision.xcdatamodel; sourceTree = "<group>"; };
+		1E1381D119894F2D00B432E5 /* GTAverageAssignmentTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAverageAssignmentTypeViewController.h; sourceTree = "<group>"; };
+		1E1381D219894F2D00B432E5 /* GTAverageAssignmentTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAverageAssignmentTypeViewController.m; sourceTree = "<group>"; };
 		1ECFB3F9197DD0910020DD62 /* Grade Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grade Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECFB3FC197DD0910020DD62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1ECFB3FE197DD0910020DD62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,12 +100,31 @@
 		1ECFB40F197DD0910020DD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ECFB411197DD0910020DD62 /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
 		1ECFB412197DD0910020DD62 /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
-		1ECFB414197DD0910020DD62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1ECFB414197DD0910020DD62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Grade Tracker/Images.xcassets"; sourceTree = "<group>"; };
 		1ECFB41A197DD0910020DD62 /* Grade TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grade TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECFB41B197DD0910020DD62 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1ECFB423197DD0910020DD62 /* Grade TrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grade TrackerTests-Info.plist"; sourceTree = "<group>"; };
 		1ECFB425197DD0910020DD62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1ECFB427197DD0910020DD62 /* Grade_TrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grade_TrackerTests.m; sourceTree = "<group>"; };
+		1ECFB432197ECF7D0020DD62 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		1ECFB465197EDA390020DD62 /* FirstRevision.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = FirstRevision.xcdatamodel; path = Model.xcdatamodeld/FirstRevision.xcdatamodel; sourceTree = "<group>"; };
+		1ECFB468197F0EEB0020DD62 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1ECFB46A197F10B20020DD62 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		1ECFB46B197F10B20020DD62 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		1ECFB46D197F1F250020DD62 /* GTCourseCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCourseCDTVC.h; sourceTree = "<group>"; };
+		1ECFB46E197F1F250020DD62 /* GTCourseCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTCourseCDTVC.m; sourceTree = "<group>"; };
+		1ECFB470197F43F00020DD62 /* GTSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTSplitViewController.h; sourceTree = "<group>"; };
+		1ECFB471197F43F00020DD62 /* GTSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTSplitViewController.m; sourceTree = "<group>"; };
+		1ECFB47C197F50C20020DD62 /* SecondRevision.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SecondRevision.xcdatamodel; sourceTree = "<group>"; };
+		1ECFB47D197F5C700020DD62 /* GTAssignmentTypeCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTAssignmentTypeCDTVC.h; sourceTree = "<group>"; };
+		1ECFB47E197F5C700020DD62 /* GTAssignmentTypeCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTAssignmentTypeCDTVC.m; sourceTree = "<group>"; };
+		1EF6E0FD19C658810015B81A /* Original.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Original.xcdatamodel; sourceTree = "<group>"; };
+		1EF6E0FE19C658B50015B81A /* AssignmentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AssignmentType.h; path = CoreDataModel/AssignmentType.h; sourceTree = "<group>"; };
+		1EF6E0FF19C658B50015B81A /* AssignmentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AssignmentType.m; path = CoreDataModel/AssignmentType.m; sourceTree = "<group>"; };
+		1EF6E10119C658B50015B81A /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Assignment.h; path = CoreDataModel/Assignment.h; sourceTree = "<group>"; };
+		1EF6E10219C658B50015B81A /* Assignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Assignment.m; path = CoreDataModel/Assignment.m; sourceTree = "<group>"; };
+		1EF6E10419C658B50015B81A /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Course.h; path = CoreDataModel/Course.h; sourceTree = "<group>"; };
+		1EF6E10519C658B50015B81A /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Course.m; path = CoreDataModel/Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ECFB469197F0EEB0020DD62 /* CoreData.framework in Frameworks */,
 				1ECFB3FF197DD0910020DD62 /* CoreGraphics.framework in Frameworks */,
 				1ECFB401197DD0910020DD62 /* UIKit.framework in Frameworks */,
 				1ECFB3FD197DD0910020DD62 /* Foundation.framework in Frameworks */,
@@ -82,7 +155,11 @@
 		1ECFB3F0197DD0910020DD62 = {
 			isa = PBXGroup;
 			children = (
+				1ECFB40E197DD0910020DD62 /* Main.storyboard */,
+				1ECFB431197ECF7D0020DD62 /* Model.xcdatamodeld */,
+				1ECFB465197EDA390020DD62 /* FirstRevision.xcdatamodel */,
 				1ECFB402197DD0910020DD62 /* Grade Tracker */,
+				1ECFB414197DD0910020DD62 /* Images.xcassets */,
 				1ECFB421197DD0910020DD62 /* Grade TrackerTests */,
 				1ECFB3FB197DD0910020DD62 /* Frameworks */,
 				1ECFB3FA197DD0910020DD62 /* Products */,
@@ -101,6 +178,7 @@
 		1ECFB3FB197DD0910020DD62 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1ECFB468197F0EEB0020DD62 /* CoreData.framework */,
 				1ECFB3FC197DD0910020DD62 /* Foundation.framework */,
 				1ECFB3FE197DD0910020DD62 /* CoreGraphics.framework */,
 				1ECFB400197DD0910020DD62 /* UIKit.framework */,
@@ -112,12 +190,11 @@
 		1ECFB402197DD0910020DD62 /* Grade Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				1ECFB40B197DD0910020DD62 /* GTAppDelegate.h */,
-				1ECFB40C197DD0910020DD62 /* GTAppDelegate.m */,
-				1ECFB40E197DD0910020DD62 /* Main.storyboard */,
-				1ECFB411197DD0910020DD62 /* GTViewController.h */,
-				1ECFB412197DD0910020DD62 /* GTViewController.m */,
-				1ECFB414197DD0910020DD62 /* Images.xcassets */,
+				1E09671B1980503E0033E352 /* ManagedDocumentReady.h */,
+				1ECFB440197ED8360020DD62 /* Categories */,
+				1ECFB43D197ED7770020DD62 /* CoreDataModel */,
+				1ECFB43E197ED7880020DD62 /* AppDelegate */,
+				1ECFB43F197ED7B00020DD62 /* View Controllers */,
 				1ECFB403197DD0910020DD62 /* Supporting Files */,
 			);
 			path = "Grade Tracker";
@@ -152,6 +229,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1ECFB43D197ED7770020DD62 /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				1EF6E10419C658B50015B81A /* Course.h */,
+				1EF6E10519C658B50015B81A /* Course.m */,
+				1EF6E10119C658B50015B81A /* Assignment.h */,
+				1EF6E10219C658B50015B81A /* Assignment.m */,
+				1EF6E0FE19C658B50015B81A /* AssignmentType.h */,
+				1EF6E0FF19C658B50015B81A /* AssignmentType.m */,
+			);
+			name = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		1ECFB43E197ED7880020DD62 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1ECFB40B197DD0910020DD62 /* GTAppDelegate.h */,
+				1ECFB40C197DD0910020DD62 /* GTAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1ECFB43F197ED7B00020DD62 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1ECFB470197F43F00020DD62 /* GTSplitViewController.h */,
+				1ECFB471197F43F00020DD62 /* GTSplitViewController.m */,
+				1ECFB411197DD0910020DD62 /* GTViewController.h */,
+				1ECFB412197DD0910020DD62 /* GTViewController.m */,
+				1ECFB46A197F10B20020DD62 /* CoreDataTableViewController.h */,
+				1ECFB46B197F10B20020DD62 /* CoreDataTableViewController.m */,
+				1ECFB46D197F1F250020DD62 /* GTCourseCDTVC.h */,
+				1ECFB46E197F1F250020DD62 /* GTCourseCDTVC.m */,
+				1E09672E19812ACF0033E352 /* GTAddCourseViewController.h */,
+				1E09672F19812ACF0033E352 /* GTAddCourseViewController.m */,
+				1E13818E1981B25000B432E5 /* GTEditCourseViewController.h */,
+				1E13818F1981B25000B432E5 /* GTEditCourseViewController.m */,
+				1ECFB47D197F5C700020DD62 /* GTAssignmentTypeCDTVC.h */,
+				1ECFB47E197F5C700020DD62 /* GTAssignmentTypeCDTVC.m */,
+				1E1381971983129700B432E5 /* GTAddAssignmentTypeViewController.h */,
+				1E1381981983129700B432E5 /* GTAddAssignmentTypeViewController.m */,
+				1E13819A198312AC00B432E5 /* GTEditAssignmentTypeViewController.h */,
+				1E13819B198312AC00B432E5 /* GTEditAssignmentTypeViewController.m */,
+				1E1381A019842A1200B432E5 /* GTAssignmentViewController.h */,
+				1E1381A119842A1200B432E5 /* GTAssignmentViewController.m */,
+				1E1381CD1988456100B432E5 /* GTAssignmentCDTVC.h */,
+				1E1381CE1988456100B432E5 /* GTAssignmentCDTVC.m */,
+				1E1381AC198818AB00B432E5 /* GTAddAssignmentViewController.h */,
+				1E1381AD198818AB00B432E5 /* GTAddAssignmentViewController.m */,
+				1E1381AF198818C500B432E5 /* GTEditAssignmentViewController.h */,
+				1E1381B0198818C500B432E5 /* GTEditAssignmentViewController.m */,
+				1E13819D1984297A00B432E5 /* GTAssignmentTableViewCell.h */,
+				1E13819E1984297A00B432E5 /* GTAssignmentTableViewCell.m */,
+				1E1381D119894F2D00B432E5 /* GTAverageAssignmentTypeViewController.h */,
+				1E1381D219894F2D00B432E5 /* GTAverageAssignmentTypeViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1ECFB440197ED8360020DD62 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1E1381911981DF0C00B432E5 /* UINavigationController+KeyboardDismiss.h */,
+				1E1381921981DF0C00B432E5 /* UINavigationController+KeyboardDismiss.m */,
+				1E1381A319845BF900B432E5 /* Assignment+Methods.h */,
+				1E1381A419845BF900B432E5 /* Assignment+Methods.m */,
+				1E1381A619845C4400B432E5 /* AssignmentType+Methods.h */,
+				1E1381A719845C4400B432E5 /* AssignmentType+Methods.m */,
+				1E1381A919845D1F00B432E5 /* Course+Methods.h */,
+				1E1381AA19845D1F00B432E5 /* Course+Methods.m */,
+			);
+			name = Categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,6 +314,7 @@
 				1ECFB3F5197DD0910020DD62 /* Sources */,
 				1ECFB3F6197DD0910020DD62 /* Frameworks */,
 				1ECFB3F7197DD0910020DD62 /* Resources */,
+				50524F424C454D533F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -200,6 +353,16 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Sai Kiran Vadlamudi";
 				TargetAttributes = {
+					1ECFB3F8197DD0910020DD62 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.iOS = {
+								enabled = 0;
+							};
+						};
+					};
 					1ECFB419197DD0910020DD62 = {
 						TestTargetID = 1ECFB3F8197DD0910020DD62;
 					};
@@ -245,14 +408,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50524F424C454D533F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export CODESIGN_ALLOCATE=/Library/JailCoder/codesign_allocate\nif [ \"${PLATFORM_NAME}\" == \"iphoneos\" ]; then\n/Library/JailCoder/Entitlements/Entitlements.py \"my.company.${PROJECT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\";\ncodesign -f -s \"iPhone Developer\" --entitlements \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/${PROJECT_NAME}.xcent\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1ECFB3F5197DD0910020DD62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ECFB472197F43F00020DD62 /* GTSplitViewController.m in Sources */,
+				1E09673019812ACF0033E352 /* GTAddCourseViewController.m in Sources */,
+				1E1381A219842A1200B432E5 /* GTAssignmentViewController.m in Sources */,
+				1E1381991983129700B432E5 /* GTAddAssignmentTypeViewController.m in Sources */,
+				1E1381931981DF0C00B432E5 /* UINavigationController+KeyboardDismiss.m in Sources */,
+				1E1381B1198818C500B432E5 /* GTEditAssignmentViewController.m in Sources */,
+				1ECFB46F197F1F250020DD62 /* GTCourseCDTVC.m in Sources */,
 				1ECFB409197DD0910020DD62 /* main.m in Sources */,
+				1E1381AE198818AB00B432E5 /* GTAddAssignmentViewController.m in Sources */,
+				1E1381901981B25000B432E5 /* GTEditCourseViewController.m in Sources */,
+				1E13819C198312AC00B432E5 /* GTEditAssignmentTypeViewController.m in Sources */,
+				1ECFB46C197F10B20020DD62 /* CoreDataTableViewController.m in Sources */,
+				1E1381CF1988456100B432E5 /* GTAssignmentCDTVC.m in Sources */,
+				1EF6E10319C658B50015B81A /* Assignment.m in Sources */,
+				1EF6E10619C658B50015B81A /* Course.m in Sources */,
 				1ECFB413197DD0910020DD62 /* GTViewController.m in Sources */,
+				1ECFB47F197F5C700020DD62 /* GTAssignmentTypeCDTVC.m in Sources */,
+				1EF6E10019C658B50015B81A /* AssignmentType.m in Sources */,
 				1ECFB40D197DD0910020DD62 /* GTAppDelegate.m in Sources */,
+				1E13819F1984297A00B432E5 /* GTAssignmentTableViewCell.m in Sources */,
+				1E1381A819845C4400B432E5 /* AssignmentType+Methods.m in Sources */,
+				1E1381AB19845D1F00B432E5 /* Course+Methods.m in Sources */,
+				1E1381A519845BF900B432E5 /* Assignment+Methods.m in Sources */,
+				1ECFB433197ECF7D0020DD62 /* Model.xcdatamodeld in Sources */,
+				1E1381D319894F2D00B432E5 /* GTAverageAssignmentTypeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +490,7 @@
 				1ECFB40F197DD0910020DD62 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "Grade Tracker";
 			sourceTree = "<group>";
 		};
 		1ECFB424197DD0910020DD62 /* InfoPlist.strings */ = {
@@ -318,7 +520,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -357,7 +559,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -459,6 +661,7 @@
 				1ECFB42D197DD0910020DD62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1ECFB42E197DD0910020DD62 /* Build configuration list for PBXNativeTarget "Grade TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -467,8 +670,25 @@
 				1ECFB430197DD0910020DD62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1ECFB431197ECF7D0020DD62 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EF6E0FD19C658810015B81A /* Original.xcdatamodel */,
+				1ECFB47C197F50C20020DD62 /* SecondRevision.xcdatamodel */,
+				1ECFB432197ECF7D0020DD62 /* Model.xcdatamodel */,
+				1E1381D019887B8F00B432E5 /* ThirdRevision.xcdatamodel */,
+			);
+			currentVersion = 1ECFB432197ECF7D0020DD62 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1ECFB3F1197DD0910020DD62 /* Project object */;
 }

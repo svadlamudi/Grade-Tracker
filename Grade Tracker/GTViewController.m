@@ -8,11 +8,16 @@
 
 #import "GTViewController.h"
 
-@interface GTViewController ()
+@interface GTViewController () <UISplitViewControllerDelegate>
 
 @end
 
 @implementation GTViewController
+
+- (void) awakeFromNib {
+    
+    self.splitViewController.delegate = self;
+}
 
 - (void)viewDidLoad
 {
@@ -24,6 +29,23 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) splitViewController:(UISplitViewController *)svc
+      willHideViewController:(UIViewController *)aViewController
+           withBarButtonItem:(UIBarButtonItem *)barButtonItem
+        forPopoverController:(UIPopoverController *)pc {
+    if (aViewController.title.length) {
+        barButtonItem.title = aViewController.title;
+    } else {
+        barButtonItem.title = @"Show";
+    }
+    
+    [self.navigationItem setLeftBarButtonItem:barButtonItem animated:YES];
+}
+
+- (void) splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {
+    [self.navigationItem setLeftBarButtonItem:nil animated:YES];
 }
 
 @end

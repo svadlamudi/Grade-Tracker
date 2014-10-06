@@ -11,5 +11,10 @@
 @interface GTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+@property (strong, nonatomic) NSPersistentStoreCoordinator *persistanceStoreCoordinator;
+@property (strong, nonatomic) NSManagedObjectModel *managedObjectModel;
+@property (strong, nonatomic) UIManagedDocument *managedDocument;
+@property (nonatomic) BOOL documentReady;
 
 @end
